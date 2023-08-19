@@ -1,0 +1,77 @@
+:root {
+  --primary-color: skyblue;
+  --page-color: #fcecaf;
+}
+body {
+  margin: 0;
+  font-family: "Borel";
+  background-color: var(--page-color);
+}
+
+#nav {
+  background-color: var(--primary-color);
+  width: 100%;
+  padding-top: 0.5rem;
+  margin: 0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#heading {
+  font-family: "Borel", cursive;
+  text-align: center;
+}
+
+#txt-input {
+  background-color: transparent;
+  border: 4px solid var(--primary-color);
+  margin: auto;
+  width: 75vh;
+  height: 15vh;
+  padding: 1rem;
+  /* display : block here helped in positioning the button */
+  display: block;
+  margin-bottom: 2rem;
+  font-family: "Borel", cursive;
+  font-size: medium;
+}
+
+#btn-translate {
+  background-color: var(--page-color);
+
+  border: 4px solid var(--primary-color);
+  padding: 0.2rem;
+  width: 20vh;
+  border-radius: 1.5rem;
+  font-family: "Borel", cursive;
+  font-size: medium;
+  margin: auto;
+  display: block;
+}
+
+#output-background {
+  opacity: 1;
+  background-color: var(--primary-color);
+  width: 80vh;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#output-heading {
+  font-family: "Borel", cursive;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: large;
+  text-align: center;
+  font-weight: bolder;
+}
+
+#output {
+  border: 4px solid var(--primary-color);
+  height: 10vh;
+  width: 75vh;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
